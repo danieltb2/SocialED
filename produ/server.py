@@ -1,7 +1,7 @@
 # -*- coding: iso-8859-15 -*-
 
 
-from flask import Flask, request
+from flask import Flask, request, render_template
 
 app = Flask(__name__)
 
@@ -120,3 +120,12 @@ def processHome():
 # start the server with the 'run()' method
 if __name__ == '__main__':
     app.run(debug=True, port=8001)
+
+# este codigo controla los errores de campos faltantes
+def process_missingFields(campos, next_page):
+    """
+    :param campos: Lista de Campos que faltan
+    :param next_page: ruta al pulsar botón continuar
+    :return: plantilla generada
+    """
+    return render_template("missingFields.html", inputs=campos, next=next_page)
