@@ -26,13 +26,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63c93164-b93f-4e53-ac33-5c683ddd365f" name="Default Changelist" comment="Links añadidos a la rama CSS">
-      <change beforePath="$PROJECT_DIR$/.idea/SocialED.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SocialED.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produ/static/css/socialed-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/produ/static/css/socialed-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produ/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/produ/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -100,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590612928054</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Archivo espia creado">
+      <created>1590613526269</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590613526269</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,7 +127,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="CSS" />
+                        <option value="controlerrores" />
                       </list>
                     </value>
                   </entry>
@@ -125,10 +138,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Links añadidos a la rama CSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Links añadidos a la rama CSS" />
+    <MESSAGE value="Archivo espia creado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Archivo espia creado" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="0" key="#server" timestamp="1590611959939">
