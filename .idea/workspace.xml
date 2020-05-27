@@ -20,13 +20,17 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:funcional" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:confluencia" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63c93164-b93f-4e53-ac33-5c683ddd365f" name="Default Changelist" comment="añado los dos nuevos archivos a templates">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="63c93164-b93f-4e53-ac33-5c683ddd365f" name="Default Changelist" comment="Añado el codigo de las nuevas funciones e importo las cosas necesarias">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_05_2020_23_11__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_05_2020_23_11__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_27_05_2020_23_11__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_27_05_2020_23_11__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produ/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/produ/static/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produ/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/produ/static/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="funcional" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,21 +132,7 @@
       <option name="project" value="LOCAL" />
       <updated>1590614126121</updated>
     </task>
-    <task id="LOCAL-00004" summary="muevo home e index">
-      <created>1590615117349</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1590615117349</updated>
-    </task>
-    <task id="LOCAL-00005" summary="añado los dos nuevos archivos a templates">
-      <created>1590615290627</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1590615290627</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,7 +146,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="funcional" />
+                        <option value="confluencia" />
                       </list>
                     </value>
                   </entry>
@@ -173,9 +163,7 @@
     <MESSAGE value="Links añadidos a la rama CSS" />
     <MESSAGE value="Archivo espia creado" />
     <MESSAGE value="Añado el codigo de las nuevas funciones e importo las cosas necesarias" />
-    <MESSAGE value="muevo home e index" />
-    <MESSAGE value="añado los dos nuevos archivos a templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="añado los dos nuevos archivos a templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añado el codigo de las nuevas funciones e importo las cosas necesarias" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="0" key="#server" timestamp="1590611959939">
@@ -194,6 +182,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="486" y="68" width="372" height="591" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590611740946" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1590615737251">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590615737251" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1590615737251">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590615737251" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1590615737250">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590615737250" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1590615737251">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590615737251" />
+    <state x="129" y="63" key="MergeDialog" timestamp="1590615822367">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="63" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1590615822367" />
+    <state x="571" y="231" width="223" height="283" key="MultipleFileMergeDialog" timestamp="1590615822371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="571" y="231" width="223" height="283" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1590615822371" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1590613949896">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
