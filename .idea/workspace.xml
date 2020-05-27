@@ -20,13 +20,13 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:CSS" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:controlerrores" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63c93164-b93f-4e53-ac33-5c683ddd365f" name="Default Changelist" comment="Links añadidos a la rama CSS">
-      <change beforePath="$PROJECT_DIR$/produ/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/produ/server.py" afterDir="false" />
+    <list default="true" id="63c93164-b93f-4e53-ac33-5c683ddd365f" name="Default Changelist" comment="Añado el archivo missingFields">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
@@ -84,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.server" />
         <item itemvalue="Python.server" />
       </list>
     </recent_temporary>
@@ -127,7 +129,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="controlerrores" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -150,6 +152,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="392" y="0" key="#server/0.0.1366.728@0.0.1366.728" timestamp="1590611959939" />
+    <state x="129" y="54" key="DiffContextDialog" timestamp="1590613897838">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1590613897837" />
     <state x="561" y="261" key="Github.ShareDialog" timestamp="1590611726795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -158,5 +164,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="486" y="68" width="372" height="591" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590611740946" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1590613949896">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590613949896" />
+    <state x="463" y="76" key="git4idea.branch.GitSmartOperationDialog" timestamp="1590613909620">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="76" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1590613909620" />
   </component>
 </project>
