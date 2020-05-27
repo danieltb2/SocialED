@@ -121,10 +121,11 @@ def processHome():
            '</html>'
 
 
-# app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
+app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
 # start the server with the 'run()' method
 if __name__ == '__main__':
     app.run(debug=True, port=8001)
+
 
 # este codigo controla los errores de campos faltantes
 def process_missingFields(campos, next_page):
@@ -135,7 +136,8 @@ def process_missingFields(campos, next_page):
     """
     return render_template("missingFields.html", inputs=campos, next=next_page)
 
-def load_user(email, passwd):
+
+def load_user(email, passwd, SITE_ROOT=None):
     """
     Carga datos usuario (identified by email) del directorio data.
     Busca un archivo de nombre el email del usuario
@@ -157,11 +159,12 @@ def load_user(email, passwd):
     session['friends'] = data['friends']
     return redirect(url_for("home"))
 
-def save_current_user():
+
+def save_current_user(SITE_ROOT=None):
     datos = {
         "user_name": session["user_name"],
         "password": session['password'],
-        "messages": session['messages'], # lista de tuplas (time_stamp, mensaje)
+        "messages": session['messages'],  # lista de tuplas (time_stamp, mensaje)
         "email": session['email'],
         "friends": session['friends']
     }
@@ -170,7 +173,7 @@ def save_current_user():
         json.dump(datos, f)
 
 
-def create_user_file(name, email, passwd, passwd_confirmation):
+def create_user_file(name, email, passwd, passwd_confirmation, SITE_ROOT=None):
     """
     Crea el fichero (en directorio /data). El nombre será el email.
     Si el fichero ya existe, error.
@@ -187,9 +190,12 @@ def create_user_file(name, email, passwd, passwd_confirmation):
         os.makedirs(directory)
     file_path = os.path.join(SITE_ROOT, "data/", email)
     if os.path.isfile(file_path):
-        return process_error("The email is already used, you must select a different email / Ya existe un usuario con ese nombre", url_for("signup"))
+        return process_error(
+            "The email is already used, you must select a different email / Ya existe un usuario con ese nombre",
+            url_for("signup"))
     if passwd != passwd_confirmation:
-        return process_error("Your password and confirmation password do not match / Las claves no coinciden", url_for("signup"))
+        return process_error("Your password and confirmation password do not match / Las claves no coinciden",
+                             url_for("signup"))
     datos = {
         "user_name": name,
         "password": passwd,
