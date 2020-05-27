@@ -25,7 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63c93164-b93f-4e53-ac33-5c683ddd365f" name="Default Changelist" comment="" />
+    <list default="true" id="63c93164-b93f-4e53-ac33-5c683ddd365f" name="Default Changelist" comment="Links añadidos a la rama CSS">
+      <change beforePath="$PROJECT_DIR$/.idea/SocialED.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SocialED.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produ/static/css/socialed-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/produ/static/css/socialed-style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +93,14 @@
       <option name="presentableId" value="Default" />
       <updated>1590611646309</updated>
     </task>
+    <task id="LOCAL-00001" summary="Links añadidos a la rama CSS">
+      <created>1590612928054</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590612928054</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,7 +114,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="CSS" />
                       </list>
                     </value>
                   </entry>
@@ -114,6 +125,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Links añadidos a la rama CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Links añadidos a la rama CSS" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="0" key="#server" timestamp="1590611959939">
