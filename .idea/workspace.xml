@@ -20,14 +20,15 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:funcional" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63c93164-b93f-4e53-ac33-5c683ddd365f" name="Default Changelist" comment="Añado el codigo de las nuevas funciones e importo las cosas necesarias">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produ/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/produ/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produ/static/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/produ/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produ/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/produ/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +63,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\Desktop\SocialED\produ\templates" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialED" />
@@ -86,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.server" />
         <item itemvalue="Python.server" />
         <item itemvalue="Python.server" />
       </list>
@@ -137,7 +144,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="funcional" />
                       </list>
                     </value>
                   </entry>
